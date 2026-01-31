@@ -1,0 +1,33 @@
+using System;
+
+namespace DisplayDemographics
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string studentID, fullName, nickName, gender, yearLevel, homeLocation, course, mobileNo, personalEmail;
+
+            studentID = "24961815";
+            fullName = "CJ Niño B. Quiñanola";
+            nickName = "Sage";
+            gender = "Male";
+            yearLevel = "2nd Year";
+            homeLocation = "Sambag, Tuyan, City of Naga";
+            course = "Bachelor of Science in Computer Science";
+            mobileNo = "+639948924285";
+            personalEmail = "quinanolacj303@gmail.com";
+
+            Console.WriteLine("Demographics Program by CJ\n");
+            Console.WriteLine("Student ID     : " + studentID);
+            Console.WriteLine("Full Name      : " + fullName);
+            Console.WriteLine("Nick Name      : " + nickName);
+            Console.WriteLine("Gender         : " + gender);
+            Console.WriteLine("Year Level     : " + yearLevel);
+            Console.WriteLine("Home Location  : " + homeLocation);
+            Console.WriteLine("Course         : " + course);
+            Console.WriteLine("Mobile No.     : " + mobileNo);
+            Console.WriteLine("Personal Email : " + personalEmail);
+        }
+    }
+}
